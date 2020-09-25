@@ -6,6 +6,7 @@ Yelpy is an app that allows users to browse movies from the [The Movie Database 
 This is the first part of an app that will allow users to view Yelp restaurants. Created a network request to fetch 
 blog restaurant data from the Yelp API.
 ### User Stories
+1. User can view and scroll through a list of Yelp restaurants.
 
 #### REQUIRED (10pts)
 - [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
