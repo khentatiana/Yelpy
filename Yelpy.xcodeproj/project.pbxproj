@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		418CDD2D251D6409009F6384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD2C251D6409009F6384 /* AppDelegate.swift */; };
 		418CDD2F251D6409009F6384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD2E251D6409009F6384 /* SceneDelegate.swift */; };
-		418CDD31251D6409009F6384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD30251D6409009F6384 /* ViewController.swift */; };
 		418CDD34251D6409009F6384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418CDD32251D6409009F6384 /* Main.storyboard */; };
 		418CDD36251D640C009F6384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418CDD35251D640C009F6384 /* Assets.xcassets */; };
 		418CDD39251D640C009F6384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418CDD37251D640C009F6384 /* LaunchScreen.storyboard */; };
 		418CDD44251D640D009F6384 /* YelpyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD43251D640D009F6384 /* YelpyTests.swift */; };
 		418CDD4F251D640D009F6384 /* YelpyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD4E251D640D009F6384 /* YelpyUITests.swift */; };
+		418CDD7E251DDA79009F6384 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD7D251DDA79009F6384 /* RestaurantsViewController.swift */; };
+		418CDD8E251E6F08009F6384 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CDD8D251E6F08009F6384 /* RestaurantCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		418CDD29251D6409009F6384 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418CDD2C251D6409009F6384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418CDD2E251D6409009F6384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		418CDD30251D6409009F6384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		418CDD33251D6409009F6384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		418CDD35251D640C009F6384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418CDD38251D640C009F6384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		418CDD4A251D640D009F6384 /* YelpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418CDD4E251D640D009F6384 /* YelpyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyUITests.swift; sourceTree = "<group>"; };
 		418CDD50251D640D009F6384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418CDD7D251DDA79009F6384 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		418CDD8D251E6F08009F6384 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				418CDD2C251D6409009F6384 /* AppDelegate.swift */,
 				418CDD2E251D6409009F6384 /* SceneDelegate.swift */,
-				418CDD30251D6409009F6384 /* ViewController.swift */,
+				418CDD7D251DDA79009F6384 /* RestaurantsViewController.swift */,
+				418CDD8D251E6F08009F6384 /* RestaurantCell.swift */,
 				418CDD32251D6409009F6384 /* Main.storyboard */,
 				418CDD35251D640C009F6384 /* Assets.xcassets */,
 				418CDD37251D640C009F6384 /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418CDD31251D6409009F6384 /* ViewController.swift in Sources */,
+				418CDD8E251E6F08009F6384 /* RestaurantCell.swift in Sources */,
 				418CDD2D251D6409009F6384 /* AppDelegate.swift in Sources */,
+				418CDD7E251DDA79009F6384 /* RestaurantsViewController.swift in Sources */,
 				418CDD2F251D6409009F6384 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
